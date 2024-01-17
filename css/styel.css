@@ -1,0 +1,762 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1526px;
+}
+.Payment-container{
+    width: 1111px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* ========nav start======== */
+#nav .head-bar h4{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.17px;
+    color: #ffffff;
+}
+#nav .head-bar{
+    background-color: #DC3545;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav .navbar-brand{
+    margin-right: 80px;
+}
+#nav ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 25px;
+    letter-spacing: 0.171px;
+    margin-right: 39px;
+}
+#nav ul li a:hover{
+    color: #ED1D24;
+}
+#nav{
+    background-color: #231F20;
+    padding-bottom: 100px;
+}
+#nav .icon i{
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+.container{
+    position: relative;
+}
+/* ========nav end======== */
+/* ======banner========= */
+#nav .slider .text h4{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.171px;
+    color: red;
+}
+#nav .slider .text{
+    margin-left: 100px;
+}
+#nav .slider{
+    margin-top: 50px;
+}
+#nav .i-box{
+    position: relative;
+}
+#nav .i-box .left-i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    left: 0;
+    top: -142px;
+}
+#nav .i-box .right-i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: -132px;
+}
+/* ======banner========= */
+/* <!-- ===========Recharge section start================ --> */
+#Recharge .slide-tow .main{
+    width: 170px;
+    height: 166px;
+    background-color: #F0F0F0;
+    padding: 0 30px 36px 30px;
+    border-radius: 20px;
+}
+#Recharge .slide-tow .main h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #343A40;
+}
+#Recharge{
+    position: relative;
+    margin-top: 134px;
+}
+#Recharge .slidetow-right {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    font-size: 20px;
+}
+#Recharge .slidetow-left {
+    position: absolute;
+    top: 75px;
+    color: black;
+    z-index: 9999;
+    left: -40px;
+    font-size: 20px;
+}
+#Recharge .offer-img{
+    transition: .5s;
+}
+#Recharge .slide-item:hover .offer-img{
+    transform: scale(1.4);
+    transition: .5s;
+}
+#Recharge .Payment-container .left h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0.171px;
+}
+#Recharge .form-check-input:checked {
+    background-color: #CC050C !important;
+    border-color: #CC050C !important;
+}
+#Recharge .radio label{
+    font-size: 20px;
+    font-weight: 700;
+    color: #363636;
+}
+#Recharge .radio{
+    display: flex;
+    gap: 19px;
+    margin-top: 25px;
+    margin-bottom: 33px;
+}
+#Recharge .input-box input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+#Recharge .inputbox-tow input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+#Recharge .input-box input::placeholder{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #6A696C;
+}
+#Recharge .input{
+    position: relative;
+}
+#Recharge .input-one{
+    margin-bottom: 15px;
+}
+#Recharge .left a{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #431378;
+    width: 142px;
+    height: 52px;
+    border: 1px solid #431378;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 16px 40px;
+    margin-top: 16px;
+}
+#Recharge .left a:hover{
+    background-color: #CC050C;
+    border: 1 ps solid #431378;
+    color: #ffffff;
+    transition: .4s;
+}
+#Recharge .Payment-container{
+    margin-top: 96px;
+}
+#Recharge .input-box{
+    position: relative;
+}
+#Recharge .inputbox-tow{
+    position: relative;
+}
+#Recharge .input-box .onei {
+    font-size: 20px;
+    color: #646464;
+    position: absolute;
+    left: 245px;
+    top: 12px;
+}
+#Recharge .inputbox-tow .towi {
+    font-size: 10px;
+    color: #ffffff;
+    position: absolute;
+    left: 249px;
+    top: 16px;
+    width: 20px;
+    height: 20px;
+    background-color: #646464;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+.red-step{
+    background-color: #CC050C;
+}
+.red-step .main h5{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #ffffff;
+    padding-top: 10px;
+}
+.red-step .main .btone{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.red-step .main .btone i{
+    margin-left: 82px;
+}
+.red-step .main .bttow{
+    width: 160px;
+    height: 52px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 100px;
+}
+.red-step .main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    gap: 23px;
+}
+.red-step{
+    height: 84px;
+    display: flex;
+    align-items: center;
+    margin-top: 54px;
+}
+/* <!-- ===========Recharge section end================ --> */
+/* <!-- ==========Trending saction start============= --> */
+#Trending{
+    padding-top: 80px;
+    padding-bottom: 129px;
+}
+#Trending .taitel h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0.171px;
+    color: #231F20;
+    text-align: center;
+    margin-bottom: 89px;
+}
+#Trending .main h4{
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 0.171px;
+    line-height: 36px;
+    color: #363636;
+    margin-top: 24px;
+    margin-bottom: 51px;
+    padding-left: 20px;
+}
+#Trending .main .shep{
+    width: 379px;
+    height: 1px;
+   background-color: #DDDDDD;
+    margin: 0 auto;
+}
+#Trending .main a{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.171px;
+    line-height: 20px;
+    color: #01A23E;
+    display: inline-block !important;
+    border: 1px solid #01A23E;
+    border-radius: 100px;
+    text-decoration: none;
+   padding: 16px 22px;
+    margin-top: 16px;
+}
+#Trending .main .card-img{
+    width: 100%;
+    transition: .9s;
+}
+#Trending .main .ankor{
+    width: 91px;
+    height: 52px;
+    margin: 0 auto;
+}
+#Trending .main p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.171px;
+    line-height: 26px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+#Trending .main{
+    width: 421px;
+    height: 540px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    color: #363636;
+    transition: .9s;
+}
+#Trending .main:hover .card-img{
+    transform: scale(1.2);
+    transition: .9s;
+}
+#Trending .main .img-areya{
+    width: 421px;
+    height: 238px;
+    overflow: hidden;
+}
+#Trending .main:hover{
+    transform: scale(1.05);
+    transition: .9s;
+}
+#Trending .last-button a{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.171px;
+    color: #431378;
+    border: 1px solid #431378;
+    border-radius: 100px;
+    text-decoration: none;
+    width: 198px;
+    height: 52px;
+    display: inline-block;
+    padding: 16px 35px;
+}
+#Trending .last-button a:hover{
+    background-color: #CC050C;
+    color: #ffffff;
+    transition: .4s;
+}
+#Trending .last-button{
+    text-align: center;
+    margin-top: 48px;
+}
+  /* <!-- ==========Trending saction end============= --> */
+  /* ==========device section start======= */
+  #device .taitel h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0.171px;
+    color: #231F20;
+    margin-bottom: 49px;
+    text-align: center;
+  }
+  #device .text-areya h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0.171px;
+    color: #231F20;
+    margin-bottom: 17px;
+  }
+  #device .text-areya h4{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.171px;
+    color: #ED1D24;
+    margin-bottom: 17px;
+  }
+  #device .text-areya h5{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.171px;
+    color: #6A696C;
+    margin-bottom: 33px;
+  }
+  #device .text-areya button{
+    width: 139px;
+    height: 52px;
+    border-radius: 100px;
+    background-color: transparent;
+  }
+  #device .text-areya button:hover{
+    background-color: #ED1D24;
+    color: #ffffff;
+  }
+  #device .text-areya button i{
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  #device .text-areya button:hover{
+    background-color: #CC050C;
+    color: #ffffff;
+    transition: .4s;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 21px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #CC050C;
+    margin-left: 10px;
+}
+.carousel-indicators {
+    position: absolute;
+    left: -978px;
+}
+#device{
+    padding-bottom: 79px;
+}
+  /* ==========device section end======= */
+  /* <!-- ==========Manage section start=========== --> */
+  #manage .taitel h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0.171px;
+    color: #343A40;
+    margin-bottom: 49px;
+    text-align: center;
+  }
+  #manage .box{
+    margin-bottom: 49px;
+  }
+  #manage .box h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.171px;
+    color: #231F20;
+    width: 225px;
+    text-align-last: center;
+  }
+  #manage .box .manage-img{
+    margin-bottom: 6px;
+    margin-left: 40px;
+    transition: .9s;
+  }
+  #manage .box:hover .manage-img{
+    transform: scale(1.3);
+    transition: .9s;
+  }
+  #manage .last-button button{
+    width: 118px;
+    height: 52px;
+    border-radius: 100px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  #manage .last-button{
+    text-align: center;
+  }
+  #manage .last-button button:hover{
+    background-color: #CC050C;
+    color: #ffffff;
+    transition: .4s;
+  }
+  #manage{
+    background-color: #F0F0F0;
+    padding-top: 81px;
+    padding-bottom: 48px;
+  }
+  /* <!-- ==========Manage section end=========== --> */
+  /* ==========Robi section start========= */
+  #robi{
+    padding-top: 81px;
+    padding-bottom: 154px;
+  }
+  #robi .taitel h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0.171px;
+    color: #231F20;
+    text-align: center;
+    margin-bottom: 89px;
+  }
+  #robi .main .card-footer h4{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.171px;
+    color: #363636;
+  }
+  #robi .main{
+    width: 343px;
+    height: 326px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    transition: .9s;
+  }
+  #robi .main:hover{
+    transform: scale(1.07);
+  }
+  #robi .main .card-footer{
+    width: 343px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #robi .main .img-box{
+    width: 343px;
+    height: 239px;
+    overflow: hidden;
+  }
+  #robi .main .img-box .digital-img{
+    transition: .9s;
+  }
+  #robi .main:hover .img-box .digital-img{
+    transform: scale(1.1);
+  }
+  #robi .button-x button{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.171px;
+    line-height: 20px;
+    color: #431378;
+    width: 216px;
+    height: 52px;
+    border-radius: 100px;
+    background-color: transparent;
+  }
+  #robi .button-x button:hover{
+    background-color: #CC050C;
+    color: #ffffff;
+    transition: .5s;
+  }
+  #robi .button-x{
+    text-align: center;
+    margin-top: 48px;
+  }
+  /* ==========Robi section end========= */
+  /* <!-- =============my section start========= --> */
+  #my .text-areya h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0.171px;
+    color: #ffffff;
+    margin-bottom: 17px;
+  }
+  #my .text-areya p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.171px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 17px;
+  }
+  #my .text-areya h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.171px;
+    color: #ffffff;
+    margin-bottom: 17px;
+  }
+  #my .button-areya{
+    display: flex;
+    gap: 16px;
+  }
+  #my .button-areya .android-img{
+    padding-right: 10px;
+  }
+  #my .button-areya .apple-img{
+    padding-right: 10px;
+  }
+  #my .button-areya .android{
+    width: 132px;
+    height: 52px;
+    border-radius: 100px;
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.171px;
+  }
+  #my .button-areya .apple{
+    width: 111px;
+    height: 52px;
+    border-radius: 100px;
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.171px;
+  }
+  #my{
+    background-color: #CC050C;
+    padding-bottom: 48px;
+    padding-top: 158px;
+    position: relative;
+  }
+  #my .footer-img {
+    position: absolute;
+    top: -131px;
+}
+  /* <!-- =============my section end========= --> */
+  /* <!-- ==========footer section start=========== --> */
+  .top-footer{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.171px;
+    color: #ffffff;
+  }
+  .top-footer h4 i{
+    font-size: 20px;
+    color: #ED1D24;
+    padding-right: 10px;
+  }
+  .top-footer{
+    background-color: #272727;
+    padding: 30px 0 39px 0;
+  }
+  .top-footer h4{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.171px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .top-footer span{
+    font-weight: 300;
+    color: #BDBDBE;
+  }
+  #footer{
+    background-color: #17161A;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  #footer .main-footer .left-text .h-one{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.171px;
+    line-height: 28px;
+    color: #6A696C;
+  }
+  #footer .main-footer .left-text .h-tow{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.171px;
+    line-height: 28px;
+    color: #6A696C;
+    margin-top: 16px;
+  }
+  #footer .main-footer .left-text a{
+    display: block;
+    text-decoration: none;
+    color: #BDBDBE;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.171px;
+    margin-top: 16px;
+  }
+  #footer .main-footer .left-text a:hover{
+    color: #CC050C;
+    transition: .4S;
+  }
+  #footer .logo-box{
+    display: flex;
+    gap: 23px;
+    margin-top: 20px;
+  }
+  #footer .right h4{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.171px;
+    line-height: 28px;
+    color: #6A696C;
+    margin-bottom: 17px;
+  }
+  #footer .right .icon-box i{
+    font-style: 25px;
+    width: 43px;
+    height: 43px;
+    border: 1px solid #838383;
+    color: #838383;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 43px;
+  }
+  #footer .right .icon-box i:hover{
+    color: #CC050C;
+    border-color: #CC050C;
+    transition: .5s;
+  }
+  #footer .right .icon-box{
+    display: flex;
+    gap: 15px;
+  }
+  #footer .footer-shep{
+    height: 1px;
+    background-color: #6A696C;
+    margin-top: 40px;
+  }
+  #footer .copy-right h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.171px;
+    color: #BDBDBE;
+  }
+  #footer .copy-right .ankor a{
+    text-decoration: none;
+    color: #BDBDBE;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.171px;
+  }
+  #footer .copy-right .ankor a:hover{
+    color: #ED1D24;
+    transition: .4s;
+  }
+  #footer .copy-right .ankor{
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+  }
+  #footer .copy-right{
+    margin-top: 31px;
+  }
+  /* <!-- ==========footer section end=========== --> */
